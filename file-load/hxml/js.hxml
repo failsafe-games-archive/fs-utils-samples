@@ -1,5 +1,5 @@
+-lib tink_await
 -lib fs-utils
--lib tink_core
 -cp src
 -js bin/js/bin/app.js
--main ProgressPromiseSample
+-main FileLoadSample
