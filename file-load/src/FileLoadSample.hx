@@ -16,9 +16,9 @@ using tink.CoreApi;
         //var text = @await File.load('google.com/allo.txt');
         //trace(text.substr(0, 10));
 
-        File.loadString('index.html').handle((outcome) -> switch(outcome) {
-            case Success(text) : trace(text.substr(0, 10));
-            case Failure(error) : trace('Yay!!!');
+        File.load('assets/test.ogg').handle((outcome) -> switch(outcome) {
+            case Success(bytes) : trace(bytes.length);
+            case Failure(error) : trace('Cannot load!!!');
         });
         
         trace('22222');
