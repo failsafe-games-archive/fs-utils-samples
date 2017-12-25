@@ -17,6 +17,10 @@
   <haxelib name="openfl" />
   <haxelib name="fs-utils" />
 
+  <haxedef name="concurrent" if="desktop || mobile" />
+
+  <assets path="assets" embed="false" />
+
   <config:ios deployment="6.0" />
   <certificate team-id="P7K4SUSDX6" />
 

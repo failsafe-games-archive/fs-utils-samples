@@ -1,4 +1,3 @@
--lib tink_await
 -lib fs-utils
 -cp src
 -js bin/js/bin/app.js
